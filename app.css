@@ -59,7 +59,7 @@ main{
     animation: rotate .6s linear infinite;
 }
 .movie-img-wrapper{
-    background-color: cover;
+    background-size: cover;
     width: auto;
     height: 250px;
 }
@@ -73,9 +73,9 @@ main{
 #booker-grid-holder{
     display: grid;
     grid-template-columns: repeat(2, 200px);
-    gap: 1rem;
+    gap: 2rem;
 }
-.booker-grid{
+.booking-grid{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -106,7 +106,7 @@ main{
     background-color: red;
 }
 .select-seat{
-    border: 4px outset rbg(0,0,0);
+    border:4px outset rgb(0, 0, 0);
 }
 
 .d-none{
@@ -120,7 +120,7 @@ input, button[type="submit"]{
     height: 35px;
     padding: .5rem;
 }
-@keyframes rotate{
+@keyframes rotate {
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
 }
