@@ -157,4 +157,4 @@ function createSuccessMessage(email, phone){
                               <p>Email: ${email}</p>
                               <p>Phone number: ${phone}</p>`;
      booker.appendChild(successElement);
-}
+} 
